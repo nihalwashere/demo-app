@@ -35,7 +35,7 @@ const useStyles = makeStyles({
   },
 });
 
-const DashboardContainer = (props) => {
+const UserTable = (props) => {
   const { usersList } = props;
 
   const classes = useStyles();
@@ -82,8 +82,8 @@ const DashboardContainer = (props) => {
   );
 };
 
-DashboardContainer.propTypes = {
+UserTable.propTypes = {
   usersList: PropTypes.array.isRequired,
 };
 
-export default DashboardContainer;
+export default UserTable;

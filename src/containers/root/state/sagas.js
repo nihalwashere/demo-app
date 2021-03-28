@@ -22,6 +22,6 @@ function* getUsersListHandler() {
   }
 }
 
-export default function* watchDashboard() {
+export default function* watchRoot() {
   yield takeEvery(GET_USERS_LIST, getUsersListHandler);
 }
